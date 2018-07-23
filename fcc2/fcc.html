@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Survey Form</title>
+	<link rel="stylesheet" type="text/css" href="fcc.css">
+</head>
+<body>
+	<div>
+		<h1 id="title">Survey form</h1>	
+	</div>
+
+<section id="background">
+	<div>
+		<p id="description">Enter your details here.</p>
+	</div>
+	<form id="survey-form">
+		<div class="label">
+			<label id="name-label" for="name">* Name:</label></div>
+			<div class="rightab"><input id="name" class="input-field" type="text" name="name" placeholder="Enter your name" required ">
+		</div>
+		<div class="label">
+			<label id="email-label" for="email">* Email:</label></div>
+			<div class="rightab"><input id="email" class="input-field" type="email" name="email" placeholder="Enter your email" required>
+		</div>
+		<div class="label">
+			<label id="number-label">* Age:</label></div>
+			<div class="rightab"><input id="number" class="input-field" type="number" name="number" placeholder="Age" min="0" max="120">
+		</div>
+		<div>
+			<div class="label"><label>Gender:</label></div>
+			<div class="rightab"><ul>
+			<li class="radio"><label><input type="radio" name="gender" value="male">Male</label></li>
+			<li class="radio"><label>
+			<input type="radio" name="gender" value="female">Female</label></li>
+			<li class="radio"><label>
+			<input type="radio" name="gender" value="other">Other</label></li>
+		</ul></div>
+		</div>
+		<div>
+			<div class="label"><label>Country:</label></div>
+			<div class="rightab"><select id="dropdown">
+				<option>US</option>
+				<option>India</option>
+				<option>America</option>
+			</select></div>
+		</div><br>
+		<div>
+			<div class="label"><label>Your Expertise:</label></div>
+			<div class="rightab"><ul>
+			<li class="checkbox"><label>
+			<input type="checkbox" name="skills" value="html">HTML</label></li>
+			<li class="checkbox"><label>
+			<input type="checkbox" name="skills" value="css">CSS</label></li>
+			<li class="checkbox"><label>
+			<input type="checkbox" name="skills" value="javascript">JavaScript</label></li>
+			<li class="checkbox"><label>
+			<input type="checkbox" name="skills" value="bootstrap">Bootstrap</label></li>
+			<li class="checkbox"><label>
+			<input type="checkbox" name="skills" value="jquery">jQuery</label></li>
+		    </ul></div>
+		</div>
+		<div>
+			<div class="label"><label>Comment Box:</label></div>
+			<div class="rightab"><textarea class="input-con" style="height: 50px; resize:vertical;" placeholder="Enter your comment here...."></textarea></div>
+		</div><br>
+			<div class="submit"><button id="submit" type="submit">Submit</button></div>
+	</form>
+</section>
+</body>
+</html>
