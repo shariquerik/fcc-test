@@ -59,7 +59,7 @@ a {
 	display: flex;
 	margin-right: 15px;
 }
-.nav-link {
+.nav-link, .nav-bottom {
 	padding-right: 10px;
 }
 
@@ -114,9 +114,9 @@ li {
 	align-items: center;
 }
 .fimg {
-	min-width: 150px;
+	min-width: 100px;
 	width: 100%;
-	min-height: 150px;
+	min-height: 100px;
 	height: auto; 
 }
 
@@ -177,7 +177,7 @@ footer {
 	}
 
 	#block {
-	width: 150px;
+	width: 100px;
 	}
 
 }
